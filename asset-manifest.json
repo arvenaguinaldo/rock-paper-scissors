@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/rock-paper-scissors/static/css/main.0018c944.chunk.css",
-    "main.js": "/rock-paper-scissors/static/js/main.4836e53e.chunk.js",
-    "main.js.map": "/rock-paper-scissors/static/js/main.4836e53e.chunk.js.map",
+    "main.js": "/rock-paper-scissors/static/js/main.94c3c600.chunk.js",
+    "main.js.map": "/rock-paper-scissors/static/js/main.94c3c600.chunk.js.map",
     "runtime-main.js": "/rock-paper-scissors/static/js/runtime-main.168b54f6.js",
     "runtime-main.js.map": "/rock-paper-scissors/static/js/runtime-main.168b54f6.js.map",
     "static/js/2.7a19f81d.chunk.js": "/rock-paper-scissors/static/js/2.7a19f81d.chunk.js",
     "static/js/2.7a19f81d.chunk.js.map": "/rock-paper-scissors/static/js/2.7a19f81d.chunk.js.map",
     "index.html": "/rock-paper-scissors/index.html",
-    "precache-manifest.231897e3b74dfc91da4b1b861ec9956a.js": "/rock-paper-scissors/precache-manifest.231897e3b74dfc91da4b1b861ec9956a.js",
+    "precache-manifest.d7f5a77ff5fc22a9412412abdc7eaeba.js": "/rock-paper-scissors/precache-manifest.d7f5a77ff5fc22a9412412abdc7eaeba.js",
     "service-worker.js": "/rock-paper-scissors/service-worker.js",
     "static/css/main.0018c944.chunk.css.map": "/rock-paper-scissors/static/css/main.0018c944.chunk.css.map",
     "static/media/paper.png": "/rock-paper-scissors/static/media/paper.431d47b0.png",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.168b54f6.js",
     "static/js/2.7a19f81d.chunk.js",
     "static/css/main.0018c944.chunk.css",
-    "static/js/main.4836e53e.chunk.js"
+    "static/js/main.94c3c600.chunk.js"
   ]
 }
