@@ -133,7 +133,7 @@ export default class Player extends Component {
         {result ? (
           <div className="result">
             <p>{result}</p>
-            <Button className="resultButton" onClick={this.handleGame}>Play Again!</Button>
+            <Button className="resultButton" onClick={this.handlePlayAgain}>Play Again!</Button>
             <Link to="/">
               <Button className="resultButton">Change Mode</Button>
             </Link>
