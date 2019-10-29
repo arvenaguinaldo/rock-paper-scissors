@@ -70,7 +70,7 @@
   background-color: #FD9E2B;
   display: inline-block;
   font-size: 20px;
-  padding: 8px 20px;
+  padding: 8px 15px;
 }
 
 .choices {
@@ -84,6 +84,16 @@
 .image {
   width: 130px;
 }
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .image {
+      width: 75px;
+    }
+}
+
 
 .computer-choice {
   height: 150px;
