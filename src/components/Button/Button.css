@@ -1,0 +1,19 @@
+.button {
+  margin: 5px 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.button > img {
+  transition: all 0.3s ease;
+  opacity: 0.5
+}
+
+.button > img:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.active > img {
+  opacity: 1;
+}

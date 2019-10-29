@@ -1,0 +1,16 @@
+.home {
+  margin-top: 15%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #FFF;
+}
+
+.btn {
+  margin: 20px;
+  text-align: center;
+  font-size: 1.7em;
+  width: 300px;
+  background-color: #FD9E2B;
+  padding: 25px 35px;
+}
