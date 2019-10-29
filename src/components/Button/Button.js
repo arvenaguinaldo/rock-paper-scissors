@@ -10,12 +10,12 @@ export default class Button extends Component {
 
 
   render() {
-    const {children, active, className} = this.props;
+    const {children, active, disabled, className} = this.props;
 
     return (
       <div
         {...this.props}
-        className={classNames(`button ${active ? 'active' : null}`, className)}
+        className={classNames(`button ${active && 'active'} ${disabled && 'disabled'}`, className)}
       >
         {children}
       </div>

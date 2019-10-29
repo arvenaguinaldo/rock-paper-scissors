@@ -16,7 +16,8 @@ export default class Player extends Component {
     playerChoice: '',
     count: 5,
     timerOn: true,
-    result: ''
+    result: '',
+    disabled: false
   }
 
   getComputerChoice = () => {
@@ -49,7 +50,8 @@ export default class Player extends Component {
       playerChoice: '',
       count: 5,
       timerOn: true,
-      result: ''
+      result: '',
+      disabled: false
     })
   }
 
@@ -57,7 +59,8 @@ export default class Player extends Component {
     this.setState(({
       playerChoice: choice,
       timerOn: true,
-      result: ''
+      result: '',
+      disabled: true
     }))
 
     this.timer = setInterval(() => {
@@ -102,7 +105,16 @@ export default class Player extends Component {
 
 
   render() {
-    const {playerScore, computerScore, count, computerChoice, timerOn, playerChoice, result} = this.state;
+    const {
+      playerScore,
+      computerScore,
+      count,
+      computerChoice,
+      timerOn,
+      playerChoice,
+      result,
+      disabled
+    } = this.state;
 
     return (
       <div className="player">
@@ -146,6 +158,7 @@ export default class Player extends Component {
           <Button
             className="choiceButton"
             onClick={this.handleGame.bind(this, 'r')}
+            disabled={disabled}
             active={playerChoice === 'r' ? 1 : 0}
           >
             <img className="image" src={RockImage} alt="rock"/>
@@ -154,6 +167,7 @@ export default class Player extends Component {
           <Button
             className="choiceButton"
             onClick={this.handleGame.bind(this, 'p')}
+            disabled={disabled}
             active={playerChoice === 'p' ? 1 : 0}
             >
             <img className="image" src={PaperImage} alt="paper"/>
@@ -162,6 +176,7 @@ export default class Player extends Component {
           <Button
             className="choiceButton"
             onClick={this.handleGame.bind(this, 's')}
+            disabled={disabled}
             active={playerChoice === 's' ? 1 : 0}
           >
             <img className="image" src={ScissorsImage} alt="scissors"/>
